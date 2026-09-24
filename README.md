@@ -1,4 +1,4 @@
-# BIOT6900 — Module 2 Assignment 2: Multi-Omics Target Discovery
+# Module 2 Multi-Omics Target Discovery
 
 **Name:** Deepthi Dineshkumar
 **Disease:** Pancreatic Ductal Adenocarcinoma (PDAC)
