@@ -1,0 +1,3 @@
+gene,uniprot,module2_rank,mean_pLDDT,pct_below_50,n_domains,inter_domain_PAE,pdb_id,rmsd_confident,best_pocket_score,best_pocket_verdict,druggability_call
+CEL,P19835,4,82.6,16.2,1,,1F6W,1.35,0.925,keep,Possible but uncertain
+XDH,P47989,9,96.0,1.7,1,,2E1Q,0.48,0.979,keep,Structure supports a small-molecule pocket
