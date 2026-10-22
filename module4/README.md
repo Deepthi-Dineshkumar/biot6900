@@ -1,4 +1,4 @@
-# BIOT 6900 · Module 4: Structure-Based Druggability of Your Targets
+# BIOT 6900 · Module 4: Structure-Based Druggability of PDAC Targets
 
 **Name:** Deepthi Dineshkumar
 
