@@ -1,12 +1,12 @@
-# BIOT 6900 · Module 5: Variant Interpretation on Your Own Gene
+# BIOT 6900 · Module 5: Variant Interpretation on CYP2C19
 
 **Name:** Deepthi Dineshkumar
 
 **Gene:** CYP2C19 (no gene was assigned on Canvas, so CYP2C19 was chosen from the five options)
 
-**AlphaGenome Atlas:** NOT run. No API key was obtained, and `SKIP_ATLAS` was set to `True`.
+**AlphaGenome Atlas:** NOT run, and `SKIP_ATLAS` was set to `True`.
 Section 2 of the report addresses what the Atlas could in principle have shown for
-rs72558186 (CYP2C19*7) and rs4244285 (CYP2C19*2), and why nothing else in the course can.
+rs72558186 (CYP2C19*7) and rs4244285 (CYP2C19*2).
 
 ## Files
 
@@ -48,10 +48,3 @@ rs72558186 (CYP2C19*7) and rs4244285 (CYP2C19*2), and why nothing else in the co
 - **A pandas `TypeError`** occurred in Q5 on the first run, because `.map()` on a categorical
   band column returns a categorical that cannot be compared to an integer. Fixed by casting
   the mapped columns with `.astype(object)` and `pd.to_numeric`.
-
-## AI use disclosure
-
-Claude (Anthropic, 2026) was used to structure the report and to mitigate errors beyond those
-noted in the assignment module. All content and analysis are the author's own.
-
-Anthropic. (2026). *Claude* (Opus 4.5) [Large language model]. https://claude.ai
