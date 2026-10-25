@@ -1,8 +1,11 @@
 # BIOT6900 Module 5: Variant Interpretation in CYP2C19
 
 **Name:** Deepthi Dineshkumar
+
 **Gene:** CYP2C19
+
 **Full write up:** `Deepthi_Dineshkumar_Module5_Report.pdf`
+
 **AlphaGenome Atlas:** not run, `SKIP_ATLAS` was set to `True` (see Section 6).
 
 ## Overview
