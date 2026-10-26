@@ -148,8 +148,7 @@ variant's rank within its own protein, not the probability of disease.
 - **XDH** ranked sixth and is a validated small molecule target. It gives a second enzyme for
   assessing catalytic pockets and the influence of cofactors and domain arrangement.
 
-Both genes were downregulated in Module 2. A good pocket would support structural tractability, but
-functional experiments would still be needed to decide whether inhibiting them is appropriate in PDAC.
+A good pocket would support structural tractability, but functional experiments would still be needed to decide whether inhibiting them is appropriate in PDAC.
 
 ## 7. Files in this folder
 
