@@ -132,7 +132,7 @@ indirect destabilization near the zinc site.
 - 
 ### Integration with Modules 2 and 3
 Both targets were retained, and the structural results support the Module 3 small molecule
-predictions. XDH has stronger structural and experimental support even though CEL had the higher Module 3 prior, so XDH is prioritized for binding studies. CEL needs further testing to see whether pocket 56 is functional, but weaker validation alone does not justify switching to an antibody approach. Both genes were **downregulated** in Module 2, so a druggable pocket does not show that inhibition would help in PDAC. Experiments in PDAC and normal pancreatic models are needed to decide whether either target should be inhibited or restored.
+predictions. XDH has stronger structural and experimental support even though CEL had the higher Module 3 prior, so XDH is prioritized for binding studies. CEL needs further testing to see whether pocket 56 is functional, but weaker validation alone does not justify switching to an antibody approach. CEL and XDH were **downregulated** and ****upregulated** in Module 2, so a druggable pocket does not show that inhibition or activation would help in PDAC. Experiments in PDAC and normal pancreatic models are needed to decide whether either target should be inhibited or restored.
 
 ## 8. Files in this folder
 
