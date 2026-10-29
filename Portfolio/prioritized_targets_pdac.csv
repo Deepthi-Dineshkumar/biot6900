@@ -1,0 +1,16 @@
+shortlist_rank,gene,m2_rank,m3_rank,rna_lfc,prot_lfc,mut_freq,direction,p_sm,p_ab,best_modality,clinical_precedence,best_pocket_score,druggability_call,C1_direction,C2_tractable,C3_structure,criteria_met,package_call,rationale
+1,XDH,9,6,2.788,0.836,0.029,up,0.503,0.003,small molecule,"allopurinol, febuxostat",0.979,Structure supports a small-molecule pocket,True,True,True,3,Advance,"Small molecule: up in tumour, enzyme-like prior, top pocket covers 92% of the 2E1Q SAL site"
+2,MUC16,1,2,3.696,1.117,0.057,up,0.0,0.151,antibody,"phase I anti-MUC16 ADC incl. PDAC (investigated, benefit unproven)",,,True,True,,2,Advance,"Antibody/ADC: Module 2 #1; only gene meeting all three selected evidence thresholds in the 1,880-gene intersection; prior clinical investigation (phase I ADC incl. PDAC), not proven PDAC benefit; structure pending"
+3,CEL,4,1,-6.348,-2.55,0.019,down,0.716,0.009,small molecule,,0.925,Possible but uncertain,False,True,True,2,Conditional,"Strong kept pocket, but decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved"
+,MUC5B,13,11,2.417,1.226,0.019,up,0.045,0.546,antibody,,,,True,True,,2,Watch,Antibody prior 0.55 but secreted gel-forming mucin: soluble-antigen sink
+,FN1,15,12,1.728,1.242,0.019,up,0.482,0.293,small molecule,EDB-domain antibody fusions,,,True,True,,2,Watch,Prior 0.48 but precedence is isoform (EDB) specific; gene-level data cannot resolve
+,COL11A1,3,4,2.417,1.402,0.029,up,0.1,0.0,small molecule,,,,True,False,,1,Low tractability,Up in tumour but no modality prior >= 0.4 and no precedence
+,KRT19,10,13,2.688,1.433,0.019,up,0.011,0.002,small molecule,,,,True,False,,1,Low tractability,Up in tumour but no modality prior >= 0.4 and no precedence
+,EPS8L3,14,15,2.994,1.044,0.019,up,0.092,0.001,small molecule,,,,True,False,,1,Low tractability,Up in tumour but no modality prior >= 0.4 and no precedence
+,LRP1B,5,3,-1.561,-1.06,0.086,down,0.284,0.472,antibody,,,,False,True,,1,Down in tumour,Decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved
+,BRSK2,6,5,-3.083,-1.955,0.019,down,0.267,0.0,small molecule,,,,False,False,,0,Down in tumour,Decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved
+,CFTR,2,7,-2.438,-1.819,0.029,down,0.044,0.001,small molecule,ivacaftor (potentiator),,,False,True,,1,Down in tumour,Decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved
+,ACADL,7,8,-3.025,-1.983,0.019,down,0.153,0.0,small molecule,,,,False,False,,0,Down in tumour,Decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved
+,NOS1,8,9,-2.205,-0.978,0.029,down,0.209,0.001,small molecule,,,,False,False,,0,Down in tumour,Decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved
+,NPTX2,11,10,-1.919,-0.944,0.029,down,0.054,0.501,antibody,,,,False,True,,1,Down in tumour,Decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved
+,LAMC3,12,14,-1.646,-0.98,0.029,down,0.096,0.078,small molecule,,,,False,False,,0,Down in tumour,Decreased in bulk tumour tissue; cellular origin and therapeutic direction remain unresolved
