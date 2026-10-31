@@ -7,3 +7,9 @@ module4/structures/
 .ipynb_checkpoints/
 module5/data/
 **/.ipynb_checkpoints/
+# Private Neo4j credentials
+neo4j_credentials.env
+Neo4j-*.txt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
