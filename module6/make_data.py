@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Build the four BIOT6900 Module 6 Part 3 input files for a PDAC PRS:
+Build the four input files for a PDAC PRS:
   data/genotypes.csv  data/variants.csv  data/score.csv  data/meta.csv
 
-Inputs (made by build_inputs.sh):
+Inputs (from build_inputs.sh):
   raw/<PGS>_hmPOS_GRCh37.txt.gz                  PGS Catalog harmonized score
   raw/genos.tsv                                  CHROM POS ID REF ALT GT...  (bcftools query)
   raw/samples.txt                                sample IDs, same order as GT columns
@@ -11,7 +11,7 @@ Inputs (made by build_inputs.sh):
 
 Genotypes, REF/ALT and score are REAL. Age and phenotype are SIMULATED (1000G has
 no disease labels). Simulation assumptions are printed and written to
-data/SIMULATION_NOTES.txt so they can be quoted in the report.
+data/SIMULATION_NOTES.txt.
 """
 import argparse, os
 import numpy as np, pandas as pd
@@ -71,7 +71,7 @@ panel = pd.read_csv(os.path.join(a.raw, "integrated_call_samples_v3.20130502.ALL
 anc = panel.set_index("sample").loc[samples, "super_pop"].values
 
 # ---------- 4. simulated age + phenotype ----------
-# harmonize to the score's effect allele (same keep/flip/drop rule as the notebook)
+# harmonize to the score's effect allele 
 s = score.set_index("variant").loc[variants["variant"]]
 eff = s["effect_allele"].values
 keep = eff == variants["alt"].values
