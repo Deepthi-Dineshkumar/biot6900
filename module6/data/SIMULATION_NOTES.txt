@@ -1,0 +1,9 @@
+Score: PGS000725 (PGS Catalog, GRCh37 harmonized) - 22 variants; 22 found in 1000G phase 3
+Genotypes: 1000 Genomes phase 3 (GRCh37), 2504 people, biallelic SNPs, dosage = ALT count
+Ancestry: 1000G super-population labels
+SIMULATED: age ~ N(65, 8) clipped 40-90; phenotype from logistic model:
+  logit = b0[group] + log(1.5)*liability + 0.06*(age-65)
+  liability = rho[group]*PRS_within_group + sqrt(1-rho^2)*noise   (PRS in EUR-SD units)
+  rho = {'EUR': 1.0, 'AMR': 0.79, 'SAS': 0.79, 'EAS': 0.71, 'AFR': 0.47}  (tagging efficiency; Martin et al. 2019)
+  b0[group] set so case fraction = 0.3 in every group (equal true risk across groups)
+Seed: 6900
