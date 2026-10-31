@@ -1,8 +1,11 @@
 # BIOT6900 Module 7: Knowledge Graph for Pancreatic Ductal Adenocarcinoma (PDAC)
 
 **Name:** Deepthi Dineshkumar
+
 **Disease:** Pancreatic ductal adenocarcinoma (PDAC), CPTAC-PDAC cohort via LinkedOmicsKB (continued from Modules 2–6)
+
 **Database:** Neo4j AuraDB Free
+
 **Full write-up:** `Deepthi_Dineshkumar_Module7_Report.pdf`
 
 ## Overview
