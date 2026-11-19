@@ -1,0 +1,154 @@
+{
+  "seed": 2545448,
+  "n": {
+    "train": 600,
+    "val": 400,
+    "test": 600
+  },
+  "partA_clean": {
+    "val_acc": 0.94,
+    "train_acc": 0.9966666666666667,
+    "test_acc": 0.9316666666666666,
+    "test_sensitivity": 0.9466666666666667,
+    "test_specificity": 0.9166666666666666
+  },
+  "partB_clean_probe": [
+    {
+      "tile": 0,
+      "class": "tumour",
+      "tissue_area": 0.95196533203125,
+      "gradcam_tissue_share": 0.9616498947143555,
+      "occlusion_tissue_share": 0.9582438221295623,
+      "gradcam_occlusion_r": 0.10308846178164754
+    },
+    {
+      "tile": 3,
+      "class": "tumour",
+      "tissue_area": 0.944580078125,
+      "gradcam_tissue_share": 0.9410192370414734,
+      "occlusion_tissue_share": 0.8837703342731735,
+      "gradcam_occlusion_r": 0.44347294959597805
+    },
+    {
+      "tile": 4,
+      "class": "tumour",
+      "tissue_area": 0.84820556640625,
+      "gradcam_tissue_share": 0.8475435972213745,
+      "occlusion_tissue_share": 0.8020614346581335,
+      "gradcam_occlusion_r": 0.16507554806617294
+    },
+    {
+      "tile": 1,
+      "class": "normal",
+      "tissue_area": 0.938720703125,
+      "gradcam_tissue_share": 0.9310608506202698,
+      "occlusion_tissue_share": 0.9665483377664051,
+      "gradcam_occlusion_r": 0.5106594407638922
+    },
+    {
+      "tile": 2,
+      "class": "normal",
+      "tissue_area": 0.98614501953125,
+      "gradcam_tissue_share": 0.9818882942199707,
+      "occlusion_tissue_share": 0.9777076851335585,
+      "gradcam_occlusion_r": 0.6154353956020787
+    },
+    {
+      "tile": 5,
+      "class": "normal",
+      "tissue_area": 0.975341796875,
+      "gradcam_tissue_share": 0.9756547808647156,
+      "occlusion_tissue_share": 0.981412700438028,
+      "gradcam_occlusion_r": -0.028796599992375178
+    }
+  ],
+  "confounder": {
+    "type": "scanner_tag",
+    "label": "tumour",
+    "area_fraction": 0.04833984375,
+    "tag_wh": [
+      44,
+      18
+    ]
+  },
+  "partC_confounded": {
+    "val_acc_confounded_val": 1.0,
+    "train_acc": 1.0,
+    "test_acc_artifact_world": 0.9983333333333333,
+    "test_acc_clean_tiles": 0.5116666666666667
+  },
+  "partD_battery": {
+    "clean_control": {
+      "tumour_recall_with_artifact": 0.9866666666666667,
+      "tumour_recall_without_artifact": 0.9466666666666667,
+      "normals_called_tumour_no_artifact": 0.08333333333333333,
+      "normals_called_tumour_with_artifact": 0.19,
+      "flip_rate_normal_to_tumour": 0.11636363636363636
+    },
+    "confounded": {
+      "tumour_recall_with_artifact": 1.0,
+      "tumour_recall_without_artifact": 0.02666666666666667,
+      "normals_called_tumour_no_artifact": 0.0033333333333333335,
+      "normals_called_tumour_with_artifact": 1.0,
+      "flip_rate_normal_to_tumour": 1.0
+    }
+  },
+  "partD_summary": {
+    "recall_drop_confounded": 0.9733333333333334,
+    "recall_drop_clean": 0.040000000000000036,
+    "flip_gap": 0.8836363636363637
+  },
+  "partD_heatmaps_single": {
+    "tumour_plus_artifact": {
+      "clean": {
+        "p_tumour": 0.8950849175453186,
+        "gradcam_on_artifact": 0.062580905854702,
+        "occlusion_on_artifact": 0.06495516613988497
+      },
+      "confounded": {
+        "p_tumour": 0.992796003818512,
+        "gradcam_on_artifact": 0.1475842446088791,
+        "occlusion_on_artifact": 0.6725115757112407
+      }
+    },
+    "normal_plus_artifact": {
+      "clean": {
+        "p_tumour": 0.2322927862405777,
+        "gradcam_on_artifact": 0.2363443225622177,
+        "occlusion_on_artifact": 0.8020304892791276
+      },
+      "confounded": {
+        "p_tumour": 0.9890968799591064,
+        "gradcam_on_artifact": 0.15072309970855713,
+        "occlusion_on_artifact": 0.6794851218809291
+      }
+    }
+  },
+  "partD_artifact_share_mean": {
+    "n_tiles": 8,
+    "artifact_area": 0.04833984375,
+    "clean": {
+      "gradcam": 0.16100256983190775,
+      "occlusion": 0.23182506427573382
+    },
+    "confounded": {
+      "gradcam": 0.1467125304043293,
+      "occlusion": 0.6616569065242679
+    }
+  },
+  "auto_verdict": "SHORTCUT LEARNED: confounded model depends on the artifact; the clean control largely ignores it.",
+  "iteration_log": [
+    {
+      "attempt": 1,
+      "confounder": "scanner_tag",
+      "tag_wh": [
+        44,
+        18
+      ],
+      "flip_clean": 0.11636363636363636,
+      "flip_confounded": 1.0,
+      "note": "main run"
+    }
+  ],
+  "runtime_min": 4.2
+}
