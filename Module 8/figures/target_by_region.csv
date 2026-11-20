@@ -1,0 +1,5 @@
+region,n_spots,mean_log_expr,pct_positive
+Tumor core,1693,1.4763,98.9959
+Tumor margin,683,1.4378,96.6325
+Immune,727,1.2167,80.3301
+Stroma,695,0.9784,83.4532

@@ -1,0 +1,4 @@
+method,batch_sil (donor),bio_sil (cell type),batch_mixing = 1-|sil|,bio_conservation = (sil+1)/2,overall (0.4*batch + 0.6*bio)
+No integration,0.1282,-0.0224,0.8718,0.4888,0.642
+Harmony,-0.0884,-0.0092,0.9116,0.4954,0.6619
+scVI,-0.0317,0.033,0.9683,0.5165,0.6972

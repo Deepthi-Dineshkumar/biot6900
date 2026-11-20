@@ -1,0 +1,205 @@
+{
+  "single_cell": {
+    "cells_loaded": 20000,
+    "donors": 10,
+    "assays": {
+      "10x 3' v3": 13922,
+      "10x 3' v2": 4078,
+      "10x 5' v2": 2000,
+      "10x 3' v1": 0,
+      "10x 3' transcription profiling": 0,
+      "10x 5' transcription profiling": 0,
+      "10x 5' v1": 0,
+      "10x gene expression flex": 0,
+      "10x multiome": 0,
+      "Asteria scRNA-seq kit": 0,
+      "BD Rhapsody Targeted mRNA": 0,
+      "BD Rhapsody Whole Transcriptome Analysis": 0,
+      "CEL-seq": 0,
+      "CEL-seq2": 0,
+      "Drop-seq": 0,
+      "GEXSCOPE technology": 0,
+      "HIVE CLX Single-Cell RNAseq Solution": 0,
+      "MARS-seq": 0,
+      "Parse Evercode Whole Transcriptome v2": 0,
+      "Quartz-seq": 0,
+      "SORT-seq": 0,
+      "SPLiT-seq": 0,
+      "STRT-seq": 0,
+      "ScaleBio single cell RNA sequencing": 0,
+      "Seq-Well": 0,
+      "Seq-Well S3": 0,
+      "Smart-seq": 0,
+      "Smart-seq v4": 0,
+      "Smart-seq2": 0,
+      "Smart-seq3": 0,
+      "TruDrop": 0,
+      "inDrop": 0,
+      "mCT-seq": 0,
+      "microwell-seq": 0,
+      "modified STRT-seq": 0,
+      "particle-templated instant partition sequencing": 0,
+      "sci-RNA-seq3": 0
+    },
+    "epithelial_cells": 9768,
+    "label_fix": "malignant/myofibroblast/mast cells reassigned from T",
+    "unintegrated_clusters": 30,
+    "donor_driven_clusters_gt80pct": 17,
+    "integration_scores": {
+      "No integration": {
+        "batch_sil (donor)": 0.128,
+        "bio_sil (cell type)": -0.022,
+        "batch_mixing = 1-|sil|": 0.872,
+        "bio_conservation = (sil+1)/2": 0.489,
+        "overall (0.4*batch + 0.6*bio)": 0.642
+      },
+      "Harmony": {
+        "batch_sil (donor)": -0.088,
+        "bio_sil (cell type)": -0.009,
+        "batch_mixing = 1-|sil|": 0.912,
+        "bio_conservation = (sil+1)/2": 0.495,
+        "overall (0.4*batch + 0.6*bio)": 0.662
+      },
+      "scVI": {
+        "batch_sil (donor)": -0.032,
+        "bio_sil (cell type)": 0.033,
+        "batch_mixing = 1-|sil|": 0.968,
+        "bio_conservation = (sil+1)/2": 0.516,
+        "overall (0.4*batch + 0.6*bio)": 0.697
+      }
+    },
+    "best_overall": "scVI",
+    "target_by_celltype": {
+      "Epithelial/Tumor": {
+        "n_cells": 8678,
+        "mean_log_expr": 0.6330000162124634,
+        "pct_expressing": 36.356
+      },
+      "NK": {
+        "n_cells": 50,
+        "mean_log_expr": 0.257999986410141,
+        "pct_expressing": 10.0
+      },
+      "DC": {
+        "n_cells": 36,
+        "mean_log_expr": 0.21699999272823334,
+        "pct_expressing": 13.889
+      },
+      "Other": {
+        "n_cells": 2993,
+        "mean_log_expr": 0.19099999964237213,
+        "pct_expressing": 16.973
+      },
+      "B": {
+        "n_cells": 529,
+        "mean_log_expr": 0.1340000033378601,
+        "pct_expressing": 7.183
+      },
+      "Fibroblast": {
+        "n_cells": 1096,
+        "mean_log_expr": 0.11400000005960464,
+        "pct_expressing": 9.58
+      },
+      "T": {
+        "n_cells": 2313,
+        "mean_log_expr": 0.054999999701976776,
+        "pct_expressing": 2.508
+      },
+      "Macrophage": {
+        "n_cells": 1189,
+        "mean_log_expr": 0.04800000041723251,
+        "pct_expressing": 3.028
+      },
+      "Endothelial": {
+        "n_cells": 1431,
+        "mean_log_expr": 0.041999999433755875,
+        "pct_expressing": 3.843
+      },
+      "Monocyte": {
+        "n_cells": 73,
+        "mean_log_expr": 0.0,
+        "pct_expressing": 0.0
+      }
+    }
+  },
+  "target": "ERBB2",
+  "spatial": {
+    "spots_loaded": 3798,
+    "genes": 36601,
+    "n_clusters": 9,
+    "cluster_to_domain": {
+      "0": "Immune",
+      "1": "Stroma",
+      "2": "Tumor",
+      "3": "Tumor",
+      "4": "Tumor",
+      "5": "Tumor",
+      "6": "Tumor",
+      "7": "Tumor",
+      "8": "Tumor"
+    },
+    "spots_per_domain": {
+      "Tumor": 2376,
+      "Immune": 727,
+      "Stroma": 695
+    },
+    "top10_moranI": {
+      "MGP": 0.869,
+      "MALAT1": 0.763,
+      "CRISP3": 0.726,
+      "CPB1": 0.711,
+      "IGHG3": 0.704,
+      "IGLC2": 0.7,
+      "IGKC": 0.681,
+      "ALB": 0.668,
+      "IGHG1": 0.635,
+      "IGHG4": 0.632
+    },
+    "target_moranI": 0.23651814527440834,
+    "tumor_immune_z": -56.19,
+    "domain_nhood_z": {
+      "Immune": {
+        "Immune": 50.93,
+        "Stroma": 8.25,
+        "Tumor": -56.19
+      },
+      "Stroma": {
+        "Immune": 8.25,
+        "Stroma": 54.84,
+        "Tumor": -56.27
+      },
+      "Tumor": {
+        "Immune": -56.19,
+        "Stroma": -56.27,
+        "Tumor": 69.47
+      }
+    },
+    "core_vs_margin": {
+      "core_mean": 1.476,
+      "margin_mean": 1.438,
+      "p": 0.12169177085161209
+    },
+    "target_by_region": {
+      "Tumor core": {
+        "n_spots": 1693,
+        "mean_log_expr": 1.4759999513626099,
+        "pct_positive": 98.996
+      },
+      "Tumor margin": {
+        "n_spots": 683,
+        "mean_log_expr": 1.437999963760376,
+        "pct_positive": 96.633
+      },
+      "Immune": {
+        "n_spots": 727,
+        "mean_log_expr": 1.2170000076293945,
+        "pct_positive": 80.33
+      },
+      "Stroma": {
+        "n_spots": 695,
+        "mean_log_expr": 0.9779999852180481,
+        "pct_positive": 83.453
+      }
+    }
+  }
+}

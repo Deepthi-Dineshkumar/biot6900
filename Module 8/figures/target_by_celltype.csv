@@ -1,0 +1,11 @@
+cell_type,n_cells,mean_log_expr,pct_expressing
+Epithelial/Tumor,8678,0.633,36.356
+NK,50,0.258,10.0
+DC,36,0.217,13.889
+Other,2993,0.191,16.973
+B,529,0.134,7.183
+Fibroblast,1096,0.114,9.58
+T,2313,0.055,2.508
+Macrophage,1189,0.048,3.028
+Endothelial,1431,0.042,3.843
+Monocyte,73,0.0,0.0
