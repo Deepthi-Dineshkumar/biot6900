@@ -15,8 +15,7 @@ The only additions are presentational: figures redrawn for legibility from the c
 ## The argument in one paragraph
 
 The case study assembles Labs 5 to 8 around the Part I shortlist. Variant interpretation in
-CYP2C19 could not reach a patient-level call: population allele frequencies, not genotypes, and
-pooled calibration dominated by DPYD. A European-derived PDAC PRS (PGS000725) discriminates
+CYP2C19 could not reach a patient-level call: population allele frequencies, not genotype. A European-derived PDAC PRS (PGS000725) discriminates
 weakly (overall AUC 0.574) and transfers badly across ancestries (35.4% of AFR versus 0.0% of SAS
 above one pooled top-decile cutoff). The knowledge graph recovers KRAS from Part I rank 69 to
 rank 1 on topology and drug annotation alone, and ranks XDH second. **The measurement that would
